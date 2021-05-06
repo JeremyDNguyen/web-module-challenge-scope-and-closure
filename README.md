@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+    A closure is a nesting function inside of the main function, being the second function inside of the first function.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +65,12 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+    The closure is beginning with the declaration of const newRoll. The curly braces signifies the second function inside of the main function.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+    The function will always be the same and what could change is the random number generated for function.
 c. What is the lexical scope of `newRoll`? 
-
+    return function()
+  
 
 ### Task 3 - Stretch Goals
 
